@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-gigmor",
+  "version": "1.0.0",
+  "description": "The eslint configuration used by Gigmor",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gigmor/eslint-config-gigmor"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "gigmor"
+  ],
+  "author": "Ryan Bogle <ryan.bogle@gigmor.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^2.10.2",
+    "babel-eslint": "^6.0.4"
+  }
+}

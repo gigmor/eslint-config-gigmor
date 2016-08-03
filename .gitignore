@@ -1,0 +1,23 @@
+# Files
+*.log
+*.bak
+*.diff
+.DS_Store
+*.map
+*.private.*
+
+# Folders
+dist/
+node_modules/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# VIM
+*.swp
+*.swo
