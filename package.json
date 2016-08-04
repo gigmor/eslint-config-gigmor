@@ -7,7 +7,8 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint example.js example2.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,14 @@
   "author": "Ryan Bogle <ryan.bogle@gigmor.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^2.10.2",
-    "babel-eslint": "^6.0.4"
+    "eslint": "^3.2.2",
+    "babel-eslint": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
   }
 }
