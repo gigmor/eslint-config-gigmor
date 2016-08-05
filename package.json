@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-gigmor",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The eslint configuration used by Gigmor",
   "main": "index.js",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=6.3.1",
+    "npm": ">=3.10.5"
   },
   "scripts": {
     "lint": "eslint example.js example2.js",
