@@ -55,7 +55,7 @@ module.exports = {
     'no-unexpected-multiline': [ 'warn' ],
     'no-unreachable': [ 'warn' ],
     'use-isnan': [ 'warn' ],
-    'valid-jsdoc': [ 'warn' ],
+    'valid-jsdoc': [ 'off' ],
     'valid-typeof': [ 'error' ],
 
     // Best Practices
@@ -245,9 +245,9 @@ module.exports = {
     'semi-spacing': [ 'error', { before: false, after: true }],
     'sort-imports': [ 'off' ],
     'sort-vars': [ 'off' ],
-    'space-before-blocks': [ 'error', 'always' ],
-    'space-before-function-paren': [ 'error', 'never' ],
-    'space-in-parens': [ 'error', 'always', {
+    'space-before-blocks': [ 'warn', 'always' ],
+    'space-before-function-paren': [ 'warn', 'never' ],
+    'space-in-parens': [ 'warn', 'always', {
       exceptions: [
         '{}', '[]', '()', 'empty'
       ]
