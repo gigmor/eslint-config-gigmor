@@ -234,7 +234,7 @@ module.exports = {
     }],
     'quote-props': [ 'error', 'as-needed' ],
     'quotes': [ 'error', 'single', { avoidEscape: true }],
-    'require-jsdoc': [ 'error', {
+    'require-jsdoc': [ 'off', {
       require: {
         FunctionDeclaration: true,
         MethodDefinition: true,
