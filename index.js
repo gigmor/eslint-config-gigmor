@@ -169,10 +169,25 @@ module.exports = {
     'eol-last': [ 'error', 'unix'],
     'func-names': [ 'off' ],
     'func-style': [ 'off' ],
-    'id-blacklist': [ 'error', 'data', 'e', 'obj', 'arr' ],
+    'id-blacklist': [
+      'warn',
+      'e',
+      'obj',
+      'arr',
+      'str',
+      'data'
+    ],
     'id-length': [ 'warn', {
       min: 3,
-      exceptions: [ 'on' ]
+      exceptions: [
+        'on',
+        'cb',
+        'fs',
+        'db',
+        'os',
+        'v8',
+        'vm'
+      ]
     }],
     'id-match': [ 'off' ],
     'indent': [ 'error', 2, {
@@ -186,7 +201,7 @@ module.exports = {
     'lines-around-comment': [ 'off' ],
     'max-depth': [ 'error', 15 ],
     'max-len': [ 'warn', {
-      code: 100,
+      code: 120,
       comments: 120,
       tabWidth: 2,
       ignoreUrls: true,
