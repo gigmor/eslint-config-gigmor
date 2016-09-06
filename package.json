@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gigmor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The eslint configuration used by Gigmor",
   "main": "index.js",
   "engines": {
