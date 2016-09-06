@@ -186,7 +186,9 @@ module.exports = {
         'db',
         'os',
         'v8',
-        'vm'
+        'vm',
+	's3',
+	'id'
       ]
     }],
     'id-match': [ 'off' ],
