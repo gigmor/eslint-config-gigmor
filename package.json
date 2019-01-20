@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-gigmor-2019",
+  "name": "eslint-config-gigmor-encore",
   "version": "0.0.6",
   "description": "The eslint configuration used by Gigmor",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gigmor/eslint-config-gigmor-2019"
+    "url": "https://github.com/gigmor/eslint-config-gigmor-encore"
   },
   "keywords": [
     "eslint",
