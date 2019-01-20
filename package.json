@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-gigmor",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The eslint configuration used by Gigmor",
   "main": "index.js",
   "engines": {
-    "node": ">=6.3.1",
-    "npm": ">=3.10.5"
+    "node": ">=11.7.0",
+    "npm": ">=6.6.0"
   },
   "scripts": {
     "lint": "eslint example.js example2.js",
@@ -20,15 +20,15 @@
     "eslintconfig",
     "gigmor"
   ],
-  "author": "Ryan Bogle <ryan.bogle@gigmor.com>",
+  "author": "Erik Neff <erik@gigmor.com>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^3.2.2",
-    "babel-eslint": "^6.1.2"
+    "eslint": "^5.12.1",
+    "babel-eslint": "^10.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.2.2"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1"
   },
   "eslintConfig": {
     "extends": "./index.js"
