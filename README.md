@@ -24,7 +24,7 @@ $ npm install --save-dev eslint babel-eslint eslint-config-gigmor
 ## License
 MIT License
 
-Copyright (c) 2016 Gigmor
+Copyright (c) 2019 Gigmor
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
