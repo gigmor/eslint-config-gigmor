@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-gigmor",
+  "name": "eslint-config-gigmor-2019",
   "version": "0.0.6",
   "description": "The eslint configuration used by Gigmor",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gigmor/eslint-config-gigmor"
+    "url": "https://github.com/gigmor/eslint-config-gigmor-2019"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "gigmor"
   ],
-  "author": "Erik Neff <erik@gigmor.com>",
+  "author": "Gigmor Admin <admin@gigmor.com>",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^5.12.1",

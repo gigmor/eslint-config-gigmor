@@ -1,11 +1,11 @@
-# eslint-config-gigmor
+# eslint-config-gigmor-2019
 
 > A eslint config for the JavaScript style used by Gigmor.
 
 ## Install
 
 ```sh
-$ npm install --save-dev eslint babel-eslint eslint-config-gigmor
+$ npm install --save-dev eslint babel-eslint eslint-config-gigmor-2019
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ $ npm install --save-dev eslint babel-eslint eslint-config-gigmor
   "extends": "gigmor"
 }
 ```
-`eslint-config-gigmor` works in the "extends" field as well
+`eslint-config-gigmor-2019` works in the "extends" field as well
 
 ## License
 MIT License
