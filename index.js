@@ -3,16 +3,6 @@
 
 module.exports = {
 //  parser: 'esprima',
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      globalReturn: false,
-      jsx: false,
-      experimentalObjectRestSpread: false
-    }
-  },
   env: {
     browser: true,
     node: true,
